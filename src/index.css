@@ -37,3 +37,13 @@ input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
   color: #ec407a !important;
 }
+
+.brand-logo {
+  font-weight: 600;
+  position: relative;
+}
+
+.brand-logo span {
+  color: #ec407a;
+}
+
