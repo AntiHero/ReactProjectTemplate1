@@ -7,7 +7,18 @@ const initState = {
 };
 
 const projectReducer = (state = initState, action) => {
-  return state;
+  switch(action.type) {
+    case 'CREATE_PROJECT':
+      console.log('created project', action.project);
+      return state;
+    case 'CLEAR_FORM':
+      console.log('cleared');
+      return {
+        ...state,
+        clear: action.clear
+      }
+    default: return state;
+  }
 }
 
 export default projectReducer;
