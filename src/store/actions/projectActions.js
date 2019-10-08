@@ -1,4 +1,4 @@
-export const createProject = (project) => {
+export const createProject = (project ) => {
   return async (dispatch, getState, {getFirebase, getFirestore}) => {
     const firestore = getFirestore();
     await firestore.collection('projects').add({
@@ -15,7 +15,6 @@ export const createProject = (project) => {
     });
 
     await (() => {
-      console.log('here2')
       dispatch({
         type: 'CLEAR_FORM',
         clear: true,
