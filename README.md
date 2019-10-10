@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3492b35e-303f-4496-9d29-0dba69b8c005/deploy-status)](https://app.netlify.com/sites/zerohelp-marioplan/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c0267a2e-bd6d-49b8-8567-a1fc72f0041e/deploy-status)](https://app.netlify.com/sites/zerohelp-marioplan/deploys)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
