@@ -4,8 +4,6 @@ import { firestoreConnect } from "react-redux-firebase";
 import { compose } from "redux";
 
 const ProjectDetails = props => {
-  const id = props.match.params.id;
-  console.log(props, "props");
   const { project } = props;
   return project ? (
     <div className="container section project-detais">
